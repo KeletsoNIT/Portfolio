@@ -88,7 +88,11 @@ export default function App() {
           </div>
         </div>
 
-        <img src="/profile.jpg" className="profile-img" alt="Keletso Makalela" />
+        <img
+  src={`${import.meta.env.BASE_URL}profile.jpg`}
+  className="profile-img"
+  alt="Keletso Makalela"
+/>
       </section>
 
       {/* SUMMARY */}
