@@ -34,12 +34,16 @@ export default function App() {
       <section id="home" className="hero">
         <div className="glass-card">
           <h1 className="hero-title">
-            Keletso Makalela
-          </h1>
-
-          <h2 className="hero-role">
-            Software Developer | IT Graduate | Backend & AI Systems
-          </h2>
+  <Typewriter
+    words={['Keletso Makalela', 'Software Developer', 'AI Systems Builder']}
+    loop={0}
+    cursor
+    cursorStyle="|"
+    typeSpeed={70}
+    deleteSpeed={50}
+    delaySpeed={2000}
+  />
+</h1>
 
           <p className="hero-sub">
             Building scalable software systems, automation tools, and full-stack applications using React, Node.js, Python, and modern cloud workflows.
