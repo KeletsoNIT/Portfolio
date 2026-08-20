@@ -31,9 +31,7 @@ export default function FeaturedProject() {
             <h3>AI Recruitment Agent</h3>
 
             <p className="text">
-              An intelligent recruitment platform that parses CVs, ranks
-              candidates against job requirements, and automates the entire
-              recruitment workflow using a multi-agent LangGraph pipeline.
+          View my GitHub repository for the AI Recruitment Agent, a comprehensive platform designed to streamline the hiring process. This project showcases my expertise in full-stack development, AI applications, and REST API development, demonstrating my ability to create innovative solutions that address real-world challenges in recruitment.
             </p>
 
             <ul className="check-list">
