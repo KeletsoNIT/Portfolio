@@ -68,10 +68,10 @@ export default function App() {
           </h1>
 
           <p className="hero-sub">
-  I am a <strong>Software Developer, Business Analyst and AI Builder</strong> 
-  who turns complex business problems into practical digital solutions.
-  I combine software development, business analysis, artificial intelligence,
-  data and ITSM to understand problems, design solutions and build them.
+  I am a <strong>Business Analyst, Software Developer and Agentic AI Builder</strong>{" "}
+  who bridges the gap between business needs and technical execution.
+  I analyse problems, understand requirements, design practical solutions
+  and build technology that creates measurable value.
 </p>
 
           <div className="hero-badges">
@@ -107,12 +107,13 @@ export default function App() {
             </a>
 
             <a
-              href="#"
-              className="btn btn-secondary"
-              onClick={(e) => e.preventDefault()}
-            >
-              💼 LinkedIn
-            </a>
+  href="https://www.linkedin.com/in/keletso-makalela-390537319/"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-secondary"
+>
+  💼 LinkedIn
+</a>
 
           </div>
         </div>
