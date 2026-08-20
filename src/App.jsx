@@ -90,8 +90,8 @@ export default function App() {
             </a>
 
             <a
-              href="Keletso_Makalela_2026_CV.pdf"
-              download="Keletso_Makalela_2026_CV.pdf"
+              href="Keletso_Makalela_CV.pdf"
+              download="Keletso_Makalela_CV.pdf"
               className="btn btn-secondary"
             >
               📄 Download CV
