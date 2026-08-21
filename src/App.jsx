@@ -4,7 +4,7 @@ import "./portfolio-additions.css";
 import HowIThink from "./components/HowIThink";
 //import HowIThink from "./components/HowIThink";
 import CaseStudies from "./components/CaseStudies";
-import NetworkBackground from "./components/NetworkBackground";
+//import NetworkBackground from "./components/NetworkBackground";
 import Reveal from "./components/Reveal";
 import TechStack from "./components/TechStack";
 //import FeaturedProject from "./components/FeaturedProject";
@@ -15,11 +15,7 @@ export default function App() {
   return (
     <div className="app">
 
-      {/* =====================================================
-          BACKGROUND
-      ====================================================== */}
-      <NetworkBackground />
-
+      
       {/* =====================================================
           NAVBAR
       ====================================================== */}
@@ -143,26 +139,32 @@ export default function App() {
           <div className="card">
 
             <p className="text">
-              I am a Bachelor of Science in Information Technology
-              graduate with hands-on experience across software
-              development, Artificial Intelligence, IT service management
-              and technology-driven problem solving.
-            </p>
+  I am a <strong>BSc Information Technology graduate</strong> with
+  hands-on experience across Business Analysis, software development,
+  Artificial Intelligence, IT service management and technology-driven
+  problem solving.
+</p>
 
-            <p className="text">
-              My interests sit at the intersection of{" "}
-              <strong>Business Analysis, AI and technology</strong>. I enjoy
-              understanding how a business operates, identifying problems,
-              analysing requirements and translating those needs into
-              practical digital solutions.
-            </p>
+<p className="text">
+  My strength is sitting between <strong>business and technology</strong>.
+  I enjoy understanding how organisations operate, identifying problems,
+  analysing requirements, improving processes and translating business
+  needs into practical technical solutions.
+</p>
 
-            <p className="text">
-              My experience includes building AI-powered applications,
-              working with enterprise ITSM platforms, developing full-stack
-              applications and exploring AI agent workflows.
-            </p>
+<p className="text">
+  I also have a strong development foundation, allowing me to understand
+  how solutions are actually built. I have worked with technologies such
+  as <strong>React, JavaScript, Python, Node.js, SQL and REST APIs</strong>,
+  while exploring Agentic AI, intelligent automation and enterprise
+  platforms such as BMC Helix.
+</p>
 
+<p className="text">
+  I am particularly interested in opportunities where I can combine
+  <strong> analytical thinking, technology and innovation</strong> to
+  solve meaningful business problems.
+</p>
           </div>
         </Reveal>
 
